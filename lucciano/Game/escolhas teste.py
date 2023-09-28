@@ -54,3 +54,5 @@ print(dialog)
 
 for i in dialog:
     print(i)
+
+print(f"\n{dialog[5]}")
