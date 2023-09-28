@@ -1,0 +1,23 @@
+dialog = []
+
+def countLinhas(arquivo_path):
+    with open(arquivo_path, 'r') as arquivo:
+        linhas = arquivo.readlines()
+        return len(linhas)
+
+arquivo_path = "dialog.txt"
+numLinhas = countLinhas(arquivo_path)
+print(numLinhas)  # Número de linhas
+
+with open(arquivo_path, "r") as f:
+    for i in range(numLinhas):
+        linha = f.readline()
+        dialog.append(linha.strip())  # Adicione a linha à lista, removendo caracteres de nova linha
+
+# Agora, 'dialog' contém todas as linhas do arquivo
+print(dialog)
+
+# Para imprimir cada linha individualmente
+for linha in dialog:
+    print(linha)
+
