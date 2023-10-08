@@ -1,0 +1,4 @@
+o jogo tá praticamente acabado, só fala montar a história tudo certinho igual um frankenstein.
+
+Versão atual do jogo: JogoSenai.zip
+Extrai aí que vai funcionar(se tu tiver a biblioteca)
